@@ -1,0 +1,1 @@
+The solution involves using the `async/await` syntax within the useEffect hook and ensuring proper state management with a loading indicator.  The corrected version uses `setData` to update the state, and checks for `isLoading` and `error` before rendering the data.
