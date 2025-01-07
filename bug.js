@@ -1,0 +1,1 @@
+This React Native code snippet demonstrates a common error related to asynchronous operations within the `useEffect` hook.  The `fetch` call is asynchronous, meaning the component might rerender before the data is fetched, causing `data` to be undefined or null in the JSX.
